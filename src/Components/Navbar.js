@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class Navbar extends Component {
   render() {
     return (
       <div className='navbar'>
         <nav className='nav-menu'>
-          <a href='/'>Home</a>
-          <a href='/'>Services</a>
-          <a href='/'>Educational Videos</a>
-          <a href='/'>FAQ</a>
-          <a href='/'>Testimonials</a>
-          <a href='/'>About Me</a>
-          <a href='/'>Contact Us</a>
+          <Link to='/'>Home</Link>
+          <Link to='/service'>Services</Link>
+          <Link to='/edu-vidoes'>Educational Videos</Link>
+          <Link to='/faq'>FAQ</Link>
+          <Link to='/testimonials'>Testimonials</Link>
+          <Link to='/about-me'>About Me</Link>
+          <Link to='/contact'>Contact Us</Link>
         </nav>
       </div>
     );

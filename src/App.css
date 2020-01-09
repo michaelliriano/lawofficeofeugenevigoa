@@ -8,6 +8,10 @@ body {
 a {
   text-decoration: none !important;
 }
+a:hover {
+  color: #e7b535 !important;
+}
+
 .highlightblue {
   color: #003059;
 }
@@ -18,7 +22,8 @@ a {
   padding-top: 25px;
   padding-bottom: 25px;
   width: 80%;
-  display: inline-grid;
+  display: flex;
+  flex-direction: row;
 }
 .header-law {
   color: rgb(238, 238, 238);
@@ -63,6 +68,9 @@ a {
   font-size: 2rem;
   padding: 0.3em;
 }
+.operation i:hover {
+  color: #e7b535;
+}
 .header-contact {
   margin: auto;
   text-align: center;
@@ -99,14 +107,14 @@ a {
   width: 100%;
 }
 .hero {
-  font-weight: 100;
+  font-weight: 200;
   position: absolute;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .eve {
-  font-weight: 100;
+  font-weight: 300;
   position: absolute;
   top: 75%;
   left: 65%;
@@ -119,4 +127,28 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.3rem;
+}
+/* Services */
+
+.services {
+  width: 100%;
+  background: #003059;
+  display: flex;
+}
+.service-icon {
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+.service-icon h3 {
+  font-weight: 300;
+}
+.service-icon i {
+  color: #e7b535;
+  font-size: 5rem;
+}
+.testimonials {
+  width: 100%;
+  background: #1e5ba4;
+  height: 300px;
 }

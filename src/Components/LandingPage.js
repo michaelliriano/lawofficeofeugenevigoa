@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Photo from '../Images/miami.jpg';
 
-export class Eugene extends Component {
+export class LandingPage extends Component {
   render() {
     return (
       <div className='overlay'>
@@ -20,4 +20,4 @@ export class Eugene extends Component {
   }
 }
 
-export default Eugene;
+export default LandingPage;

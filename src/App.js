@@ -1,17 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './Components/Header';
-import Navbar from './Components/Navbar';
-import { Eugene } from './Components/Eugene';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
+import PageWrapper from './Components/PageWrapper';
+import Home from './Components/Home';
+import Service from './Components/Service';
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-      <Navbar />
-      <Eugene />
-    </div>
+    <Router>
+      <div className='App'>
+        <PageWrapper />
+      </div>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/services' component={Service} />
+    </Router>
   );
 }
 

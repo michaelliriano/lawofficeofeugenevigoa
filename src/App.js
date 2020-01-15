@@ -24,7 +24,6 @@ function App() {
       <Route exact path='/FAQ' component={FAQ} />
       <Route exact path='/footer' component={Footer} />
       <Route exact path='/contact' component={Contact} />
-
       <Footer />
     </Router>
   );

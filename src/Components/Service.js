@@ -5,23 +5,32 @@ export class Service extends Component {
     return (
       <section className='services'>
         <div className='container'>
+          <h3 className='service-title'>
+            PRACTICE <span>AREAS</span>
+          </h3>
+        </div>
+        <div className='container'>
           <div className='service-icon'>
-            <i class='fas fa-sign'></i>
+            <i className='fas fa-sign'></i>
             <h3>
               Seller <br /> Representation
             </h3>
           </div>
           <div className='service-icon'>
-            <i class='fas fa-home'></i>
-            <h3>Buyer Representation</h3>
+            <i className='fas fa-home'></i>
+            <h3>
+              Buyer <br /> Representation
+            </h3>
           </div>
           <div className='service-icon'>
-            <i class='fas fa-hand-holding-usd'></i>
+            <i className='fas fa-hand-holding-usd'></i>
             <h3>Investors</h3>
           </div>
           <div className='service-icon'>
-            <i class='fas fa-graduation-cap'></i>
-            <h3>Realtor Training</h3>
+            <i className='fas fa-graduation-cap'></i>
+            <h3>
+              Realtor <br /> Training
+            </h3>
           </div>
         </div>
       </section>

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Navbar from './Navbar';
+
+import NavMenu from './ResponsiveMenu';
 
 export class PageWrapper extends Component {
   render() {
     return (
       <div>
         <Header />
-        <Navbar />
+        <NavMenu />
       </div>
     );
   }

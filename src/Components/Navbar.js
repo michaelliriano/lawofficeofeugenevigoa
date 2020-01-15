@@ -8,7 +8,6 @@ export class Navbar extends Component {
         <nav className='nav-menu'>
           <Link to='/'>Home</Link>
           <Link to='/service'>Services</Link>
-          <Link to='/edu-vidoes'>Educational Videos</Link>
           <Link to='/faq'>FAQ</Link>
           <Link to='/testimonials'>Testimonials</Link>
           <Link to='/about-me'>About Me</Link>

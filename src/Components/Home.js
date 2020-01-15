@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LandingPage from './LandingPage';
 import Service from './Service';
+import Eugene from './Eugene';
 import Testimonials from './Testimonials';
 
 export class Home extends Component {
@@ -9,6 +10,7 @@ export class Home extends Component {
       <div>
         <LandingPage />
         <Service />
+        <Eugene />
         <Testimonials />
       </div>
     );

@@ -42,7 +42,7 @@ export class Eugene extends Component {
         </div>
         <div className='bio'>
           <div className='profile'>
-            <img className='headshot' src={Headshot} />
+            <img className='headshot' src={Headshot} alt='' />
             <p>"I'm Never Too Busy for Your Referrals!"</p>
           </div>
         </div>

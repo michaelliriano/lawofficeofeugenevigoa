@@ -25,7 +25,7 @@ export class Footer extends Component {
             <p>
               Cell:{' '}
               <a style={{ color: 'white' }} href='tel:5551234567'>
-                (305)433-3587
+                (305)793-3587
               </a>
             </p>
           </div>
